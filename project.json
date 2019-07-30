@@ -1,0 +1,6 @@
+{
+"package_name" : "sw4_deps",
+"uberenv_package_name" : "uberenv-sw4",
+"spack_url": "https://github.com/spack/spack.git",
+"spack_branch": "develop"
+}
