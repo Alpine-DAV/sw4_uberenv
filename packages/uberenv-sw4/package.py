@@ -70,7 +70,7 @@ class UberenvSw4(Package):
     depends_on("umpire@0.3.3+cuda")
     depends_on("raja@0.7.0+cuda", when="+cuda")
 
-    #depends_on("cmake@3.9.2:3.9.999", type='build')
+    depends_on("cmake", type='build')
     #depends_on("conduit+python", when="+python+shared")
 
     #######################
