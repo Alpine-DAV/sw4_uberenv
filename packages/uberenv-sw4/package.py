@@ -41,13 +41,13 @@ class UberenvSw4(Package):
     visualization and analysis infrastructure for multi-physics HPC
     simulations."""
 
-    homepage = "https://github.com/geodynamics/sw4"
-    git      = "https://github.com/geodynamics/sw4.git"
+    homepage = "https://github.com/Alpine-DAV/sw4"
+    git      = "https://github.com/Alpine-DAV/sw4.git"
 
     maintainers = ['mclarsen']
 
     version('develop',
-            branch='raja',
+            branch='ascent',
             submodules=True)
 
     ###########################################################################
